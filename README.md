@@ -1,7 +1,7 @@
 # Web7 Tech Solutions — Official IT Startup Website
 
 > **High-Converting, Affordable Website Development for Startups & Businesses**  
-> Built with pure HTML5, modern Vanilla CSS, and JavaScript. Styled in the exact luxury editorial aesthetic of [Glow Designer](https://glowdesigner.com/) and 100% mobile view touch-optimized.
+> Built with pure HTML5, modern Vanilla CSS, and JavaScript. Styled in the exact luxury editorial aesthetic of [Glow Designer](https://glowthedesignerhub.vercel.app/) and 100% mobile view touch-optimized.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## 💼 Main Services
 - **Affordable Company Websites**: Custom business presence for startups and local enterprises at budget-friendly small prices.
-- **E-Commerce & Fashion Stores**: Complete online shopping solutions with catalogs, cart, payment integration, and WhatsApp order checkout (Inspired by [Glow The Designer Hub](https://glowdesigner.com/)).
+- **E-Commerce & Fashion Stores**: Complete online shopping solutions with catalogs, cart, payment integration, and WhatsApp order checkout (Inspired by [Glow The Designer Hub](https://glowthedesignerhub.vercel.app/)).
 - **Healthcare & Hospital Systems**: Doctor scheduling, online patient appointments, itemized billing, and invoice generation (Referenced from [Manjaly Dental Clinic](https://manjalydentalclinic.vercel.app/)).
 - **Digital Wedding, Event & Birthday Invitations**: Budget-friendly interactive web invitations with live countdown clocks, Google Maps GPS pins, audio music, and instant WhatsApp RSVP.
 - **Full-Stack Web Applications**: Scalable custom architectures built using MERN (MongoDB, Express, React, Node.js), Python, and Java.
@@ -42,7 +42,7 @@
 
 3. **Featured Recent Works (Filterable Portfolio)**:
    - [Manjaly Dental Clinic](https://manjalydentalclinic.vercel.app/)
-   - [Glow The Designer Hub](https://glowdesigner.com/)
+   - [Glow The Designer Hub](https://glowthedesignerhub.vercel.app/)
    - Digital Wedding & Event Invitation Websites
    - Hospital Billing & Patient Management Dashboards
 

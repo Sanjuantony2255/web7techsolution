@@ -1,6 +1,6 @@
 /**
  * Web7 Tech Solutions - Client Script
- * Theme: Glow Designer Luxury Editorial Aesthetic (https://glowdesigner.com/)
+ * Theme: Glow Designer Luxury Editorial Aesthetic (https://glowthedesignerhub.vercel.app/)
  * Features:
  *  1. Glow Designer signature splash loader fade-out
  *  2. Mobile drawer navigation & touch-friendly interactions

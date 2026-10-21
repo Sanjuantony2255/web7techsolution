@@ -1,6 +1,6 @@
 /* ===================================================================
    WEB7 TECH SOLUTIONS - GLOW DESIGNER SIGNATURE THEME
-   Inspired by https://glowdesigner.com/
+   Inspired by https://glowthedesignerhub.vercel.app/
    Palette: Warm Linen (#fff8f3), Deep Obsidian Onyx (#171411 / #161311),
    Champagne Royal Gold (#C5A862 / #BFA15F), Editorial Serif Typography
    =================================================================== */
@@ -1352,8 +1352,8 @@ img {
 
 .dp-ambient-glow {
   position: absolute;
-  inset: -18px;
-  background: radial-gradient(circle at 50% 35%, rgba(197, 168, 98, 0.35) 0%, rgba(197, 168, 98, 0.08) 60%, transparent 75%);
+  inset: -15px;
+  background: radial-gradient(circle at 50% 40%, rgba(197, 168, 98, 0.32) 0%, rgba(197, 168, 98, 0.08) 60%, transparent 75%);
   filter: blur(25px);
   z-index: 0;
   pointer-events: none;
@@ -1365,6 +1365,11 @@ img {
   100% { opacity: 0.95; transform: scale(1.04); }
 }
 
+.founder-dp-canvas {
+  position: relative;
+  width: 100%;
+}
+
 .dp-corner-bracket {
   position: absolute;
   width: 22px;
@@ -1373,7 +1378,7 @@ img {
   border-style: solid;
   z-index: 3;
   pointer-events: none;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .dp-corner-bracket.top-left {
@@ -1384,7 +1389,7 @@ img {
 }
 
 .dp-corner-bracket.bottom-right {
-  bottom: 34px;
+  bottom: -6px;
   right: -6px;
   border-width: 0 2px 2px 0;
   border-bottom-right-radius: 8px;
@@ -1394,12 +1399,12 @@ img {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 420px;
-  border-radius: 22px;
+  height: 390px;
+  border-radius: 20px;
   overflow: hidden;
-  background: linear-gradient(165deg, #2b241e 0%, #1a1613 55%, #100e0c 100%);
-  border: 1px solid rgba(197, 168, 98, 0.45);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  background: #ffffff;
+  border: 2px solid var(--gold-primary);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 25px rgba(197, 168, 98, 0.2);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1410,21 +1415,12 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: top center;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   display: block;
 }
 
 .founder-card:hover .founder-dp-img {
-  transform: scale(1.04);
-}
-
-.founder-dp-vignette {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(to top, rgba(16, 14, 12, 0.96) 0%, rgba(16, 14, 12, 0.5) 25%, transparent 55%),
-              linear-gradient(to bottom, rgba(16, 14, 12, 0.35) 0%, transparent 20%);
-  z-index: 2;
+  transform: scale(1.03);
 }
 
 /* Floating Status Pill on DP */
@@ -1433,7 +1429,7 @@ img {
   top: 14px;
   left: 14px;
   z-index: 4;
-  background: rgba(18, 15, 12, 0.82);
+  background: rgba(18, 15, 12, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(197, 168, 98, 0.45);
@@ -1464,67 +1460,27 @@ img {
   100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
 }
 
-/* Bottom Floating Plate on DP */
-.dp-bottom-card {
+/* Lower Sleek Floating Badge */
+.dp-floating-badge {
   position: absolute;
-  bottom: 14px;
-  left: 14px;
-  right: 14px;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
   z-index: 4;
-  background: rgba(22, 19, 16, 0.85);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(197, 168, 98, 0.35);
-  border-radius: 14px;
-  padding: 0.65rem 0.85rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.55);
-}
-
-.dp-bottom-badge {
-  width: 32px;
-  height: 32px;
-  border-radius: 9px;
-  background: linear-gradient(135deg, rgba(197, 168, 98, 0.25), rgba(197, 168, 98, 0.08));
+  background: rgba(20, 17, 14, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(197, 168, 98, 0.4);
+  border-radius: var(--radius-pill);
+  padding: 0.45rem 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold-primary);
-  font-size: 0.85rem;
-  flex-shrink: 0;
-}
-
-.dp-bottom-meta {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  flex: 1;
-}
-
-.dp-bottom-name {
-  font-family: var(--font-serif-display);
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.2;
-}
-
-.dp-bottom-role {
-  font-size: 0.72rem;
-  color: #bfa15f;
-  font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.dp-verified-check {
-  color: var(--gold-primary);
-  font-size: 1rem;
-  flex-shrink: 0;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #FAF8F5;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
 }
 
 /* Micro Strip Below Frame */
